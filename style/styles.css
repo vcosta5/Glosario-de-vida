@@ -1,0 +1,17 @@
+@import url(cabecalho.css);
+@import url(main.css);
+@import url(footer.css);
+:root{
+    --fonte-principal: "Kalam";
+    --verde-cinza:      #6B756A;
+    --branco:           #ffffff;
+    --preto:            #000000;
+    --cinza:            #969696;
+}
+
+body{
+    font-family: "Kalam";
+    background-image: url(/img/fundo_colorido.jpg);
+    background-size:cover;
+}
+

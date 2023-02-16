@@ -1,0 +1,76 @@
+
+main{
+    width: 91%;
+    margin: auto;
+}
+
+.container-meu__perfil{
+    display: grid;
+    grid-template-columns: 22% 2% 33% auto;
+    grid-template-rows: 36% 21% 16% 16% auto;
+    margin: 1em 0;
+}
+
+.foto__perfil{
+    width: 100%;
+    border-radius: 1000px;
+    grid-column: 1;
+    grid-row: 1/5;
+}
+
+.nome__perfil{
+    grid-column: 3;
+    grid-row:3;
+}
+
+.user__perfil{
+    color: var(--cinza);
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.botao__seguir{
+    text-decoration: none;
+    border: 1px solid var(--preto);
+    border-radius: 8px;
+    padding: 0.3em 3em;
+    color: var(--branco);
+    background-color: var(--verde-cinza);
+    grid-column: 4;
+    grid-row: 2/4;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.paragrafo__inicial{
+    margin: 2em 0;
+    text-align:justify;
+}
+
+.botao__cheio{
+    text-decoration: none;
+    /* border: 1px solid var(--preto);
+    border-radius: 8px; */
+    text-align: center;
+    background-color: var(--verde-cinza);
+    color: var(--branco);
+    padding: 2vw 12vw;
+    font-size: 24px;
+
+    
+} 
+
+
+.redes__sociais-item{
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+    border:1px solid var(--preto);
+    border-radius: 8px;
+    background-color: var(--verde-cinza);
+    padding: 1em;
+
+
+
+}
+
