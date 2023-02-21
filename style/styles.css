@@ -11,7 +11,7 @@
 
 body{
     font-family: "Kalam";
-    background-image: url(/img/fundo_colorido.jpg);
+    background-image: url(../img/fundo_colorido.jpg);
     background-size:cover;
 }
 
