@@ -63,7 +63,7 @@ main{
 
 .redes__sociais-item{
     width: 80%;
-    margin: 2em auto;
+    margin: 2.5em auto;
     text-align: center;
     border:1px solid var(--preto);
     border-radius: 8px;
@@ -74,3 +74,70 @@ main{
 
 }
 
+.botao__cheio:hover{
+    color: var(--cinza-claro);
+    transition: 0.5s;
+}
+
+
+
+@media (min-width: 500px) {
+    .container-meu__perfil{
+        display: flex;
+        /* grid-template-columns: none;
+        grid-template-rows: none; */
+        text-align: center;
+        margin: 3.5em 0;
+        flex-direction: column;
+        
+    }
+
+    .nome__perfil{
+        font-size: 40px;
+        order: 3;
+    }
+
+    .user__perfil{
+        font-size: 24px;
+        order: 2;
+    }
+
+    .botao__seguir{
+        display: none;
+    }
+    .foto__perfil{
+        width: 127px;
+        margin: 1em auto 0.5em auto;;
+        /* text-align: center; */
+    }
+    .paragrafo__inicial{
+        display: none;
+    }
+
+    .botao__cheio{
+        padding: 1vw 10vw;
+    }
+
+    .redes__sociais-item{
+        padding: 2em;
+        width: 60%;
+        margin: 3em auto;
+    }
+}
+
+@media (min-width: 900px){
+
+    .botao__cheio{
+        padding: 0 10vw;
+    }
+
+    .redes__sociais-item{
+        margin: 2em auto;
+        padding: 1em;
+        width: 40%;
+    }
+
+    .container-meu__perfil{
+        margin: 1em 0;
+    }
+}
