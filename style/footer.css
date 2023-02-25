@@ -2,7 +2,10 @@
 
 .rodape{
     background-color: var(--verde-cinza);
-    padding: 0.3em;
+    padding: 0.5em 0;
+    /* position: absolute;
+    bottom: 0;              ---- deu errado. Não consegui fazer funcionar
+    width: 100%; */
 }
 
 .email__rodape{

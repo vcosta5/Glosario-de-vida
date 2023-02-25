@@ -13,7 +13,16 @@
 
 body{
     font-family: "Kalam";
+
+}
+
+.corpo__linktree{
     background-image: url(../img/fundo_colorido.jpg);
+    background-size:cover;
+}
+
+.corpo__menu{
+    background-image: url(../img/fundo\ estrela.png);
     background-size:cover;
 }
 

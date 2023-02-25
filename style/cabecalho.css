@@ -11,3 +11,10 @@
     width: 92%;
     margin: auto;
 }
+
+.titulo__cabecalho-menu{
+    font-size: 40px;
+    color: var(--verde-cinza);
+    font-weight: bold;
+    margin: 16px;
+}

@@ -61,6 +61,7 @@ main{
 } 
 
 
+
 .redes__sociais-item{
     width: 80%;
     margin: 2.5em auto;
@@ -140,4 +141,45 @@ main{
     .container-meu__perfil{
         margin: 1em 0;
     }
+}
+
+/* Especificos do Menu a diante */
+
+.texto__menu{
+    color: var(--verde-cinza);
+    font-size: 12px;
+    margin: 0 1em 2em 0;
+    line-height: 19px;
+}
+
+.menu__lista{
+
+}
+
+.menu__item{
+    text-align: center;
+    border: 2px solid var(--preto);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 1em 0;
+    background-color: var(--verde-cinza);
+    opacity: 0.5;
+}
+
+.menu__link{
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0 5em;
+}
+
+.menu__link:hover{
+    color: var(--cinza-claro);
+    transition: 0.5s;
+}
+
+.comentarios{
+    background-color: var(--cinza-claro);
+    padding: 0.8em;
+    margin: 1.5em 0;
+
 }
