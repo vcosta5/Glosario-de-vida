@@ -146,14 +146,10 @@ main{
 /* Especificos do Menu a diante */
 
 .texto__menu{
-    color: var(--verde-cinza);
-    font-size: 12px;
-    margin: 0 1em 2em 0;
+    color: var(--preto);
+    font-size: 14px;
+    margin: 0 0 2em 0;
     line-height: 19px;
-}
-
-.menu__lista{
-
 }
 
 .menu__item{
@@ -182,4 +178,14 @@ main{
     padding: 0.8em;
     margin: 1.5em 0;
 
+}
+
+.comentario__fake-nick{
+    color: var(--cinza);
+    padding-top: 1em;
+}
+
+.comentario__fake{
+    color: var(--cinza);
+    padding: 0.2em 0 0 1em;
 }
